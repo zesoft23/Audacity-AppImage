@@ -2,9 +2,9 @@ app: Audacity
 
 ingredients:
   package: audacity
-  dist: trusty
+  dist: focal
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ trusty main universe
+    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
 script:
   - cp ./usr/share/applications/audacity.desktop .
   - cp ./usr/share/pixmaps/audacity32.xpm ./audacity.xpm
